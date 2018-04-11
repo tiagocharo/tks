@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1543px" height="1764px" viewBox="0 0 1543 1764" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>BG-HexagonArt</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="-16.5659146%" x2="90.9983369%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00B7FF" offset="0%"></stop>
+            <stop stop-color="#0080FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BG-HexagonArt" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M403.161924,669.607688 L403.161924,1094.39231 L771.0362,1306.78462 L1138.91048,1094.39231 L1138.91048,669.607688 L771.0362,457.215375 L403.161924,669.607688 Z M797.913662,7.20179413 L1515.19494,421.324333 C1531.82677,430.926725 1542.0724,448.672677 1542.0724,467.877462 L1542.0724,1296.12254 C1542.0724,1315.32732 1531.82677,1333.07328 1515.19494,1342.67567 L797.913662,1756.79821 C781.281831,1766.4006 760.79057,1766.4006 744.158739,1756.79821 L26.8774616,1342.67567 C10.2456305,1333.07328 5.72927553e-13,1315.32732 5.72927553e-13,1296.12254 L0,467.877462 C0,448.672677 10.2456305,430.926725 26.8774616,421.324333 L744.158739,7.20179413 C760.79057,-2.40059804 781.281831,-2.40059804 797.913662,7.20179413 Z"></path>
+        </g>
+    </g>
+</svg>

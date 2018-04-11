@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="410px" height="656px" viewBox="0 0 410 656" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>BG-CircleArt</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="NPX-2-Exp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -3898.000000)">
+        <g id="Operadoras" transform="translate(-201.000000, 3714.000000)" stroke="#E6EBEF">
+            <g id="BG-CircleArt" transform="translate(-42.000000, 187.000000)">
+                <g>
+                    <path d="M618.580525,198.395979 L172.790386,484.507702" id="Path-21" stroke-width="6"></path>
+                    <path d="M611.624478,479.217985 L190.858143,300.887057" id="Path-22" stroke-width="5"></path>
+                    <circle id="Oval-5" stroke-width="6" cx="325" cy="325" r="325"></circle>
+                    <circle id="Oval-5-Copy" stroke-width="6" cx="542" cy="237" r="90"></circle>
+                    <circle id="Oval-5-Copy-40" stroke-width="6" fill="#FFFFFF" cx="352" cy="369" r="8"></circle>
+                    <circle id="Oval-5-Copy-39" stroke-width="6" fill="#FFFFFF" cx="610" cy="479" r="8"></circle>
+                    <circle id="Oval-5-Copy-38" stroke-width="6" fill="#FFFFFF" cx="622" cy="196" r="8"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

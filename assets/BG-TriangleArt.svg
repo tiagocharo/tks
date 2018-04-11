@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="976px" height="677px" viewBox="0 0 976 677" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>BG-TriangleArt</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.7%" y="-1.0%" width="101.4%" height="102.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="NPX-2-Exp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-304.000000, -3300.000000)" opacity="0.200000003">
+        <g id="Estatisticas" transform="translate(-201.000000, 3300.000000)" stroke="#00A8FF" stroke-width="3">
+            <g id="Triangle-2">
+                <g id="BG-TriangleArt" transform="translate(504.000000, -3.000000)">
+                    <g filter="url(#filter-1)">
+                        <polyline id="Path-15" points="454.157219 0.325610853 892.53101 240.985268 1219.31371 17.8036479"></polyline>
+                        <path d="M892.119625,240.974702 L892.119625,521.100772" id="Path-16"></path>
+                        <path d="M893.024244,401.154165 L1238.5,167" id="Path-17"></path>
+                        <path d="M891.581705,1.22494818 L0.0507078862,686.560943" id="Path-20"></path>
+                        <polygon id="Triangle-3" fill="#181D35" points="892 229 900 245 884 245"></polygon>
+                        <polygon id="Triangle-3-Copy-6" fill="#181D35" points="715 289 720 299 710 299"></polygon>
+                        <polygon id="Triangle-3-Copy-19" fill="#181D35" points="609 133 614 143 604 143"></polygon>
+                        <polygon id="Triangle-3-Copy-7" fill="#181D35" points="832 381 837 391 827 391"></polygon>
+                        <polygon id="Triangle-3-Copy-8" fill="#181D35" points="967 270 972 280 962 280"></polygon>
+                        <polygon id="Triangle-3-Copy-9" fill="#181D35" points="858 102 863 112 853 112"></polygon>
+                        <polygon id="Triangle-3-Copy-15" fill="#181D35" points="947 435 952 445 942 445"></polygon>
+                        <polygon id="Triangle-3-Copy-16" fill="#181D35" points="924 325 929 335 919 335"></polygon>
+                        <polygon id="Triangle-3-Copy-17" fill="#181D35" points="801 288 806 298 796 298"></polygon>
+                        <polygon id="Triangle-3-Copy-18" fill="#181D35" points="739 379 744 389 734 389"></polygon>
+                        <polygon id="Triangle-3-Copy-3" fill="#181D35" points="892 391 900 407 884 407"></polygon>
+                        <polygon id="Triangle-3-Copy-20" fill="#181D35" points="892 513 900 529 884 529"></polygon>
+                        <polygon id="Triangle-3-Copy-4" fill="#181D35" points="596 219 604 235 588 235"></polygon>
+                        <polygon id="Triangle-3-Copy-5" fill="#181D35" points="710 130 718 146 702 146"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

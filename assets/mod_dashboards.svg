@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Dashboards</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboards" fill-rule="nonzero">
+            <g id="83-grid-flat">
+                <polygon id="Shape" fill="#171E42" points="0 0 40 0 40 40 0 40"></polygon>
+                <polygon id="Shape" fill="#008BFF" points="0 0 40 0 40 8.27586207 0 8.27586207"></polygon>
+                <g id="path-1-link" transform="translate(2.068966, 2.068966)" fill="#F6F9FC">
+                    <path d="M4.13793103,2.06896552 C4.13793103,3.21172414 3.21172414,4.13793103 2.06896552,4.13793103 C0.926206897,4.13793103 0,3.21172414 0,2.06896552 C0,0.926206897 0.926206897,0 2.06896552,0 C3.21172414,0 4.13793103,0.926206897 4.13793103,2.06896552" id="path-1"></path>
+                </g>
+                <g id="path-1-link" transform="translate(8.275862, 2.068966)" fill="#F6F9FC">
+                    <path d="M4.13793103,2.06896552 C4.13793103,3.21172414 3.21172414,4.13793103 2.06896552,4.13793103 C0.926206897,4.13793103 0,3.21172414 0,2.06896552 C0,0.926206897 0.926206897,0 2.06896552,0 C3.21172414,0 4.13793103,0.926206897 4.13793103,2.06896552" id="path-1"></path>
+                </g>
+                <g id="path-1-link" transform="translate(14.482759, 2.068966)" fill="#F6F9FC">
+                    <path d="M4.13793103,2.06896552 C4.13793103,3.21172414 3.21172414,4.13793103 2.06896552,4.13793103 C0.926206897,4.13793103 0,3.21172414 0,2.06896552 C0,0.926206897 0.926206897,0 2.06896552,0 C3.21172414,0 4.13793103,0.926206897 4.13793103,2.06896552" id="path-1"></path>
+                </g>
+                <g id="path-2-link" transform="translate(4.137931, 12.413793)" fill="#008BFF">
+                    <polygon id="path-2" points="0 0 13.7931034 0 13.7931034 9.65517241 0 9.65517241"></polygon>
+                </g>
+                <g id="path-2-link" transform="translate(4.137931, 26.206897)" fill="#F6F9FC">
+                    <polygon id="path-2" points="0 0 13.7931034 0 13.7931034 9.65517241 0 9.65517241"></polygon>
+                </g>
+                <g id="path-2-link" transform="translate(22.068966, 12.413793)" fill="#F6F9FC">
+                    <polygon id="path-2" points="0 0 13.7931034 0 13.7931034 9.65517241 0 9.65517241"></polygon>
+                </g>
+                <g id="path-2-link" transform="translate(22.068966, 26.206897)" fill="#008BFF">
+                    <polygon id="path-2" points="0 0 13.7931034 0 13.7931034 9.65517241 0 9.65517241"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

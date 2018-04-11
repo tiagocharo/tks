@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>tiss-stat-success</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tiss-stat-success" fill-rule="nonzero">
+            <g id="227-success-flat">
+                <path d="M20,10 C20,15.5228 15.5228,20 10,20 C4.4772,20 0,15.5228 0,10 C0,4.4772 4.4772,0 10,0 C15.5228,0 20,4.4772 20,10" id="Shape" fill="#25AE88"></path>
+                <path d="M8.70667035,12.1008364 L14.6020725,5.46850893 C14.895607,5.13828271 15.4012649,5.10853813 15.7314911,5.40207255 C16.0617173,5.69560696 16.0914619,6.20126486 15.7979275,6.53149107 L9.39792745,13.7314911 C9.11510871,14.0496622 8.6326587,14.0906268 8.30024396,13.824695 L4.30024396,10.624695 C3.95523441,10.3486874 3.89929731,9.84525351 4.17530495,9.50024396 C4.45131259,9.15523441 4.95474649,9.09929731 5.29975604,9.37530495 L8.70667035,12.1008364 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

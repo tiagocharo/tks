@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+.container {
+
+}
+.container-menu {
+    background-image: url('assets/Bg-Tks-Alt.png');
+    background-size: cover;
+    height: 900px;
+    padding: 25px;
+}
+.menu {
+    display: flex;
+}
+.menu .logo {
+    height: 40px;
+}
+.menu .menu-itens {
+    position: absolute;
+    right: 25px;
+}
+.menu .menu-itens ul {
+    display: flex;
+    list-style: none;
+}
+.menu .menu-itens ul li a{
+    font-family: Avenir-Heavy;
+    font-size: 16px;
+    color: #E6EBEF;
+    letter-spacing: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu .menu-itens ul li {
+    margin-right: 35px;
+}
+.menu .menu-itens ul li:last-child {
+    margin-right: 0;
+}
+.presentation {
+    margin-top: 40px;
+}
+.presentation h1 .big-logo {
+    height: 80px;
+}
+.presentation h2 {
+    font-family: AvenirNext-Regular;
+    font-size: 50px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 65px;
+    margin-top: 40px;
+}
+.presentation h3 {
+    font-family: Avenir-Medium;
+    font-size: 24px;
+    color: #F6F9FC;
+    letter-spacing: 0;
+    margin-top: 30px;
+}
+.presentation .contact {
+    background-image: linear-gradient(-138deg, #F53F3F 0%, #C7054F 100%);
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.20);
+    border-radius: 4px;
+    font-family: Avenir-Black;
+    color: #E6EBEF;
+    letter-spacing: 0;
+    margin-top: 40px;
+    border: none;
+    width: 247px;
+    display: flex;
+}
+.presentation .contact a {
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: Avenir;
+    font-size: 18px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e6ebef;
+    padding: 8px 20px;
+}
+.symbols .circle {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.symbols .lines {
+    position: absolute;
+    right: 0;
+    top: 52px;
+    width: 630px;
+}

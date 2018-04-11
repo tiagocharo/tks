@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1764px" height="1764px" viewBox="0 0 1764 1764" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>BG-CircleRed</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="7.87921826%" y1="6.42710875%" x2="104.07868%" y2="114.962786%" id="linearGradient-1">
+            <stop stop-color="#F53F3F" offset="0%"></stop>
+            <stop stop-color="#C7054F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BG-CircleRed" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M882,0 C1369.11579,0 1764,394.884206 1764,882 C1764,1369.11579 1369.11579,1764 882,1764 C394.884206,1764 0,1369.11579 0,882 C0,394.884206 394.884206,0 882,0 Z M879.5,425 C628.485937,425 425,628.485937 425,879.5 C425,1130.51406 628.485937,1334 879.5,1334 C1130.51406,1334 1334,1130.51406 1334,879.5 C1334,628.485937 1130.51406,425 879.5,425 Z"></path>
+        </g>
+    </g>
+</svg>

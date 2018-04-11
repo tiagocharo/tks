@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="592px" height="712px" viewBox="0 0 592 712" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>BG-Art-Red</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="7.87921826%" y1="6.42710875%" x2="104.07868%" y2="114.962786%" id="linearGradient-1">
+            <stop stop-color="#F53F3F" offset="0%"></stop>
+            <stop stop-color="#C7054F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="TKS-2-iPhone6-Exp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-158.000000, 0.000000)" opacity="0.400000006">
+        <g id="Stacked-Group" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="BG-Hero">
+                <g id="Group-2" transform="translate(158.000000, -423.000000)">
+                    <path d="M567.5,0 C880.92201,0 1135,254.07799 1135,567.5 C1135,880.92201 880.92201,1135 567.5,1135 C254.07799,1135 0,880.92201 0,567.5 C0,254.07799 254.07799,0 567.5,0 Z M565.89144,273.455215 C404.382959,273.455215 273.455215,404.382959 273.455215,565.89144 C273.455215,727.399921 404.382959,858.327664 565.89144,858.327664 C727.399921,858.327664 858.327664,727.399921 858.327664,565.89144 C858.327664,404.382959 727.399921,273.455215 565.89144,273.455215 Z" id="BG-Art-Red"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

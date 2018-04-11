@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1860px" height="1765px" viewBox="0 0 1860 1765" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>BG-Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="-16.5659146%" x2="90.9983369%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00B7FF" offset="0%"></stop>
+            <stop stop-color="#0080FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BG-Triangle" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M1228.70374,413 L636.715853,413 L933.503347,973.245911 L1228.70374,413 Z M22,43 L1841.8818,43 L934.38042,1765.30101 L22,43 Z" id="Triangle-2" transform="translate(931.940900, 904.150503) rotate(-180.000000) translate(-931.940900, -904.150503) "></path>
+        </g>
+    </g>
+</svg>

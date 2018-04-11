@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>tiss-state-warning</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tiss-state-warning">
+            <g id="226-warning-flat">
+                <polygon id="Triangle" fill="#F0CE49" points="11.2796735 0.727272727 21.3258397 20 0.847116285 20"></polygon>
+                <g id="Group-7" transform="translate(9.806604, 6.727273)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M0.553459119,0.909090909 C0.553459119,0.507429273 0.878686235,0.181818182 1.27987421,0.181818182 C1.68106219,0.181818182 2.00628931,0.507429273 2.00628931,0.909090909 L2.00628931,6.72727273 C2.00628931,7.12893436 1.68106219,7.45454545 1.27987421,7.45454545 C0.878686235,7.45454545 0.553459119,7.12893436 0.553459119,6.72727273 L0.553459119,0.909090909 Z" id="Shape"></path>
+                    <path d="M0.553459119,9.27272727 C0.553459119,8.87106564 0.878686235,8.54545455 1.27987421,8.54545455 C1.68106219,8.54545455 2.00628931,8.87106564 2.00628931,9.27272727 L2.00628931,9.63636364 C2.00628931,10.0380253 1.68106219,10.3636364 1.27987421,10.3636364 C0.878686235,10.3636364 0.553459119,10.0380253 0.553459119,9.63636364 L0.553459119,9.27272727 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
