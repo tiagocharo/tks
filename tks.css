@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-weight: normal;
+    font-weight: normal!important;
 }
 .container {
 
@@ -21,6 +21,7 @@
 .menu .menu-itens {
     position: absolute;
     right: 25px;
+    z-index: 10;
 }
 .menu .menu-itens ul {
     display: flex;
@@ -42,6 +43,8 @@
 }
 .presentation {
     margin-top: 40px;
+    position: relative;
+    z-index: 10;
 }
 .presentation h1 .big-logo {
     height: 80px;
@@ -88,12 +91,151 @@
 }
 .symbols .circle {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: -117px;
+    top: -257px;
+    width: 780px;
+    opacity: 0.4;
 }
 .symbols .lines {
     position: absolute;
-    right: 0;
+    right: -429px;
     top: 52px;
-    width: 630px;
+    width: 977px;
+}
+.container-services {
+    background: #131626;
+    padding: 80px 25px 25px;
+}
+.container-services .main-text {
+    font-family: Avenir-Heavy;
+    font-size: 24px;
+    color: #F6F9FC;
+    letter-spacing: 0;
+    max-width: 805px;
+    margin-bottom: 70px;
+}
+.container-services .services {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-services .services div {
+    margin-bottom: 50px;
+}
+.container-services .services p {
+    font-family: Avenir-Medium;
+    font-size: 17px;
+    color: #C1CED9;
+    letter-spacing: 0;
+}
+
+.container-products {
+    padding: 80px 25px 25px;
+    background: #F6F9FC;
+}
+.container-products .main-text{
+    font-family: Avenir-Heavy;
+    font-size: 24px;
+    color: #171E42;
+    letter-spacing: 0;
+    max-width: 805px;
+    margin-bottom: 70px;
+}
+.container-products .products{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-products .products div {
+    margin-bottom: 50px;
+}
+.container-products .products p {
+    font-family: Avenir-Medium;
+    font-size: 24px;
+    color: #9499AB;
+    letter-spacing: 0;
+}
+
+.container-about {
+    background: #E6EBEF;
+    padding: 80px 25px 60px;
+}
+.about {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about .main-title {
+    width: 100%;
+    margin-bottom: 70px;
+}
+.container-about .about ul{
+    list-style-position: inside;
+}
+.container-about .about p, li {
+    font-family: Avenir-Book;
+    font-size: 15px;
+    color: #9499AB;
+    letter-spacing: 0;
+}
+.container-about .about p {
+    margin-bottom: 20px;
+}
+.container-about .about h4.title {
+    opacity: 0.67;
+    font-family: Avenir-Heavy;
+    color: #171E42;
+}
+.container-companies {
+    transform: rotate(-360deg);
+    background-image: linear-gradient(490deg, #D93845 0%, #5F0B4B 100%);
+    padding: 80px 63px 100px;
+}
+.container-companies .title {
+    margin-bottom: 100px;
+}
+.container-companies .companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-companies .mb {
+    margin-bottom: 60px;
+}
+.container-companies .logo {
+    width: 33.33%;
+    text-align: center;
+}
+
+
+/*default*/
+.center {
+    text-align: center;
+}
+.title-light {
+    color: #FFFFFF;
+    font-family: Avenir-Heavy;
+}
+.title-dark {
+    color:#171E42;
+    font-family: AvenirNext-Bold;
+}
+.title {
+    font-size: 24px;
+    letter-spacing: 0;
+    margin-bottom: 16px;
+}
+
+/*colluns*/
+.collum-3-small {
+    width: 330px;
+    margin-right: 96px;
+}
+.collum-3-small:last-child {
+    margin-right: 0;
+}
+.collum-3-big {
+    width: 360px;
+    margin-right: 64px;
+}
+.collum-3-big:last-child {
+    margin-right: 0;
 }
