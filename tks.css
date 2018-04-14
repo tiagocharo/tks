@@ -3,6 +3,15 @@
     margin: 0;
     font-weight: normal!important;
 }
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
 .container {
 
 }
@@ -28,7 +37,7 @@
     list-style: none;
 }
 .menu .menu-itens ul li a{
-    font-family: Avenir-Heavy;
+    font-family: "Avenir-Heavy", sans-serif;
     font-size: 16px;
     color: #E6EBEF;
     letter-spacing: 0;
@@ -50,7 +59,7 @@
     height: 80px;
 }
 .presentation h2 {
-    font-family: AvenirNext-Regular;
+    font-family: AvenirNext-Regular, sans-serif;
     font-size: 50px;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -58,7 +67,7 @@
     margin-top: 40px;
 }
 .presentation h3 {
-    font-family: Avenir-Medium;
+    font-family: "Avenir-Medium", sans-serif;
     font-size: 24px;
     color: #F6F9FC;
     letter-spacing: 0;
@@ -68,7 +77,7 @@
     background-image: linear-gradient(-138deg, #F53F3F 0%, #C7054F 100%);
     box-shadow: 0 3px 10px 0 rgba(0,0,0,0.20);
     border-radius: 4px;
-    font-family: Avenir-Black;
+    font-family: Avenir-Black, sans-serif;
     color: #E6EBEF;
     letter-spacing: 0;
     margin-top: 40px;
@@ -79,7 +88,7 @@
 .presentation .contact a {
     margin: 0 auto;
     text-decoration: none;
-    font-family: Avenir;
+    font-family: Avenir, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-stretch: normal;
@@ -107,7 +116,7 @@
     padding: 80px 25px 25px;
 }
 .container-services .main-text {
-    font-family: Avenir-Heavy;
+    font-family: "Avenir-Heavy", sans-serif;
     font-size: 24px;
     color: #F6F9FC;
     letter-spacing: 0;
@@ -122,7 +131,7 @@
     margin-bottom: 50px;
 }
 .container-services .services p {
-    font-family: Avenir-Medium;
+    font-family: "Avenir-Medium", sans-serif;
     font-size: 17px;
     color: #C1CED9;
     letter-spacing: 0;
@@ -133,7 +142,7 @@
     background: #F6F9FC;
 }
 .container-products .main-text{
-    font-family: Avenir-Heavy;
+    font-family: "Avenir-Heavy", sans-serif;
     font-size: 24px;
     color: #171E42;
     letter-spacing: 0;
@@ -148,7 +157,7 @@
     margin-bottom: 50px;
 }
 .container-products .products p {
-    font-family: Avenir-Medium;
+    font-family: "Avenir-Medium", sans-serif;
     font-size: 24px;
     color: #9499AB;
     letter-spacing: 0;
@@ -180,7 +189,7 @@
 }
 .container-about .about h4.title {
     opacity: 0.67;
-    font-family: Avenir-Heavy;
+    font-family: "Avenir-Heavy", sans-serif;
     color: #171E42;
 }
 .container-companies {
@@ -211,7 +220,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 .container-contacts .contacts .box-contacts {
     background: #f6f7f8;
@@ -219,6 +228,7 @@
     border-radius: 6px;
     padding: 20px 40px 40px 20px;
     margin-right: 53px;
+    margin-left: 225px;
 }
 .container-contacts .contacts .box-contacts input {
     height: 40px;
@@ -229,7 +239,7 @@
     margin-bottom: 10px;
     color: #9499AB;
     font-size: 17px;
-    font-family: Avenir-Medium;
+    font-family: "Avenir-Medium", sans-serif;
     padding-left: 0.5em;
     box-sizing: border-box;
 }
@@ -241,7 +251,7 @@
     border: none;
 }
 .container-contacts .contacts .box-contacts label {
-    font-family: Avenir-Medium;
+    font-family: "Avenir-Medium", sans-serif;
     font-size: 17px;
     color: #9499AB;
     letter-spacing: 0;
@@ -253,7 +263,7 @@
     box-shadow: 0 3px 10px 0 rgba(0,0,0,0.20);
     border-radius: 6px;
     margin: 22px 0 0;
-    font-family: Avenir-Black;
+    font-family: Avenir-Black, sans-serif;
     font-size: 16px;
     color: #FFFFFF;
     letter-spacing: 1px;
@@ -277,7 +287,7 @@
     justify-content: flex-end;
 }
 .container-contacts .contacts .adress {
-    font-family: Avenir-Medium;
+    font-family: "Avenir-Medium", sans-serif;
     font-size: 20px;
     color: #9499AB;
     letter-spacing: 0;
@@ -285,18 +295,59 @@
 .container-contacts .contacts .adress p:first-child {
     margin-bottom: 40px;
 }
+
+.container-footer .footer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    align-items: baseline;
+}
+
 .container-footer .footer .c {
     border: 2px solid #171E42;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 10px;
 }
 .container-footer .footer .c p {
-    font-family: Avenir-Heavy;
+    font-family: "Avenir-Heavy", sans-serif;
 }
+
+.container-footer .footer {
+    display: flex;
+    justify-content: left;
+}
+.container-footer .footer .logo {
+    margin-left: 225px;
+    display: flex;
+}
+.container-footer .footer .collum {
+    display: flex;
+    margin-left: 130px;
+}
+.container-footer .footer .collum .collum-item:first-child {
+    margin-right: 52px;
+}
+.container-footer .footer .collum .collum-item ul {
+    list-style: none;
+}
+.container-footer .footer .collum .collum-item ul li a{
+    text-decoration: none;
+    font-family: "Avenir-Heavy", sans-serif;
+    font-size: 18px;
+    color: #9499AB;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+.container-footer .footer .collum .collum-item h2 a {
+    color:#171E42;
+}
+
+
 
 
 
@@ -306,17 +357,18 @@
 }
 .title-light {
     color: #FFFFFF;
-    font-family: Avenir-Heavy;
+    font-family: "Avenir-Heavy", sans-serif;
 }
 .title-dark {
     color:#171E42;
-    font-family: AvenirNext-Bold;
+    font-family: "AvenirNext-Bold", sans-serif;
 }
 .title {
     font-size: 24px;
     letter-spacing: 0;
     margin-bottom: 16px;
 }
+
 
 /*colluns*/
 .collum-3-small {
