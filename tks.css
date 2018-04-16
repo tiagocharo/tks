@@ -98,6 +98,12 @@ a {
     color: #e6ebef;
     padding: 8px 20px;
 }
+.symbols {
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+}
 .symbols .circle {
     position: absolute;
     right: -117px;
@@ -384,4 +390,93 @@ a {
 }
 .collum-3-big:last-child {
     margin-right: 0;
+}
+
+@media all and (max-width: 768px) {
+    .menu .logo img {
+        height: 52px;
+    }
+
+    /*display none*/
+    .menu-itens {
+        display: none;
+    }
+    .presentation h1 img {
+        display: none;
+    }
+    .container-about {
+        display: none;
+    }
+
+
+    .presentation h2, .presentation h3 {
+        width: 65%;
+    }
+    .presentation .contact {
+        width: 100%;
+        height: 88px;
+        display: flex;
+        align-items: center;
+    }
+    .presentation .contact a{
+        font-style: 36px;
+    }
+    .symbols .lines {
+        position: absolute;
+        right: -629px;
+        top: 52px;
+        width: 977px;
+    }
+    .symbols .circle {
+        position: absolute;
+        right: -117px;
+        width: 590px;
+        opacity: 0.4;
+        height: 700px;
+    }
+
+    .container-companies .companies {
+        justify-content: space-around;
+    }
+    .container-companies {
+        padding: 70px 25px 60px 25px;
+    }
+    .container-companies .mb {
+        margin: 0;
+    }
+    .companies .logo {
+        width: 40%;
+        margin-bottom: 100px;
+    }
+    .companies .logo img {
+        max-width: 100%;
+        max-height: 100px;
+    }
+    .container-contacts .contacts .box-contacts {
+        margin-left: 0;
+    }
+    .container-footer .footer .logo {
+        margin-left: 0;
+    }
+
+
+    .container-contacts .contacts .box-contacts .middle {
+        display: block;
+    }
+    .container-contacts .contacts .box-contacts input {
+        width: 100%;
+    }
+    .container-contacts .contacts .box-contacts textarea {
+        width: 100%;
+    }
+    .container-contacts .contacts .box-contacts .top {
+        display: block;
+    }
+
+
+
+    .collum-3-small, .collum-3-big {
+        width: 100%;
+        margin-right: 0;
+    }
 }
