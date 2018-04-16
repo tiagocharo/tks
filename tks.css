@@ -4,16 +4,12 @@
     font-weight: normal!important;
 }
 
-body {
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
 a {
     text-decoration: none;
 }
 .container {
-
+    position: relative;
+    overflow-x: hidden;
 }
 .container-menu {
     background-image: url('assets/Bg-Tks-Alt.png');
@@ -99,7 +95,6 @@ a {
     padding: 8px 20px;
 }
 .symbols {
-    position: absolute;
     top: 0;
     right: 0;
     overflow-x: hidden;
@@ -236,8 +231,13 @@ a {
     margin-right: 53px;
     margin-left: 225px;
 }
+
 .container-contacts .contacts .box-contacts input {
     height: 40px;
+}
+
+.container-contacts .contacts .box-contacts input,
+.container-contacts .contacts .box-contacts textarea {
     width: 344px;
     background: #E7EEF4;
     border-radius: 6px;
@@ -407,10 +407,16 @@ a {
     .container-about {
         display: none;
     }
+    .container-contacts .contacts .adress {
+        display: none;
+    }
 
-
+    .container-menu {
+        height: auto;
+        padding: 40px 25px 100px 25px;
+    }
     .presentation h2, .presentation h3 {
-        width: 65%;
+        width: 88%;
     }
     .presentation .contact {
         width: 100%;
@@ -423,16 +429,19 @@ a {
     }
     .symbols .lines {
         position: absolute;
-        right: -629px;
-        top: 52px;
-        width: 977px;
+        right: -595px;
+        top: 37px;
+        width: 950px;
+        height: 500px;
+        z-index: 1;
     }
     .symbols .circle {
         position: absolute;
-        right: -117px;
-        width: 590px;
+        right: -119px;
+        width: 367px;
         opacity: 0.4;
-        height: 700px;
+        height: 956px;
+        z-index: 1;
     }
 
     .container-companies .companies {
@@ -454,14 +463,25 @@ a {
     }
     .container-contacts .contacts .box-contacts {
         margin-left: 0;
+        padding: 20px 0;
     }
     .container-footer .footer .logo {
         margin-left: 0;
+        margin-bottom: 50px;
     }
 
 
     .container-contacts .contacts .box-contacts .middle {
         display: block;
+    }
+    .container-contacts {
+        padding: 60px 25px;
+    }
+    .container-contacts:before {
+        content: '';
+        position: absolute;
+        transform: rotate(30deg);
+        background-image: linear-gradient(-138deg, #D93845 0%, #5F0B4B 100%);
     }
     .container-contacts .contacts .box-contacts input {
         width: 100%;
@@ -472,7 +492,48 @@ a {
     .container-contacts .contacts .box-contacts .top {
         display: block;
     }
+    .container-contacts .contacts .box-contacts {
+        margin-right: 0;
+    }
+    .container-contacts .contacts .box-contacts input,
+    .container-contacts .contacts .box-contacts textarea {
+        background: none;
+        padding-left: 0;
+    }
+    .container-contacts .contacts .box-contacts label {
+        color: #C1CED9;
+    }
+    
+    .container-contacts .contacts .box-contacts textarea {
+        background: none;
+        height: auto;
+    }
+    .container-contacts .contacts .box-contacts div:nth-child(1), 
+    .container-contacts .contacts .box-contacts div:nth-child(2),
+    .container-contacts .contacts .box-contacts div:nth-child(3) {
+        border-bottom: 1px solid #C1CED9;
+        padding: 0 25px;
+    }
+    .container-contacts .contacts .box-contacts div:nth-child(4),
+    .container-contacts .contacts .box-contacts div:last-child {
+        padding: 0 25px;
+    }
+    .container-contacts .contacts .box-contacts #submit {
+        width: 100%;
+    }
+    .container-footer .footer {
+        display: block;
+        padding: 80px 25px;
+    }
+    .container-footer .footer .collum .collum-item:first-child {
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
 
+    .container-footer .footer .collum {
+        display: block;
+        margin-left: 0;
+    }
 
 
     .collum-3-small, .collum-3-big {
