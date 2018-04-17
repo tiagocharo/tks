@@ -12,13 +12,15 @@ a {
     overflow-x: hidden;
 }
 .container-menu {
-    background-image: url('assets/Bg-Tks-Alt.png');
+    background-image: url('assets/BG-TKS.jpg');
     background-size: cover;
     height: 900px;
     padding: 25px;
 }
 .menu {
     display: flex;
+    position: relative;
+    z-index: 5;
 }
 .menu .logo {
     height: 40px;
@@ -215,13 +217,20 @@ a {
     text-align: center;
 }
 .container-contacts {
-    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    position: relative;
 }
 .container-contacts .contacts {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: left;
+    position: absolute;
+    padding: 60px 0;
+    top: 0;
 }
 .container-contacts .contacts .box-contacts {
     background: #f6f7f8;
@@ -307,6 +316,7 @@ a {
     align-items: center;
     justify-content: left;
     align-items: baseline;
+    padding: 90px 0 100px 0;
 }
 
 .container-footer .footer .c {
