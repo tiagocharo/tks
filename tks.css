@@ -409,6 +409,11 @@ a {
     margin-bottom: 16px;
 }
 
+.container-center {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 
 /*colluns*/
 .collum-3-small {
