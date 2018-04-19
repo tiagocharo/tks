@@ -337,7 +337,9 @@ a {
 .container-contacts .contacts .adress p:first-child {
     margin-bottom: 40px;
 }
-
+.container-footer {
+    padding: 0 25px;
+}
 .container-footer .footer {
     display: flex;
     align-items: center;
@@ -641,7 +643,6 @@ iframe {
     }
     .container-footer .footer {
         display: block;
-        padding: 80px 25px;
     }
     .container-footer .footer .collum .collum-item:first-child {
         margin-bottom: 40px;
@@ -683,14 +684,17 @@ iframe {
     .container-contacts .contacts .box-contacts {
         margin-left: 0;
     }
+    .container-footer .footer {
+        justify-content: center;
+    }
+    .container-footer .footer .logo {
+        margin-left: 0;
+    }
 
 }
 
-@media all and (max-width: 1200px) {
+@media all and (min-width: 1200px) {
 
-    .container-contacts {
-        justify-content: center;
-    }
     .container-contacts .contacts .box-contacts {
         margin-left: 0;
     }
