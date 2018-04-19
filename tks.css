@@ -413,6 +413,9 @@ a {
     max-width: 1280px;
     margin: 0 auto;
 }
+.container-center .contacts {
+    width: 100%;
+}
 
 
 /*colluns*/
@@ -663,5 +666,16 @@ a {
     }
     .container-contacts .contacts .box-contacts {
         margin-left: 0;
+    }
+}
+
+@media all and (min-width: 1280px) {
+    iframe {
+        height: 700px;
+        position: absolute;
+        top: 0;
+    }
+    .container-contacts .contacts {
+        position: relative;
     }
 }
