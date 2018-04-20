@@ -26,6 +26,9 @@ a {
     height: 900px;
     padding: 25px;
 }
+.container-menu .symbols {
+    position: absolute!important;
+}
 .menu {
     display: flex;
     position: relative;
