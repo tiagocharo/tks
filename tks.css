@@ -21,6 +21,7 @@ a {
 }
 .container-menu {
     background-image: url('assets/BG-TKS.jpg');
+    background-attachment: fixed;
     background-size: cover;
     height: 900px;
     padding: 25px;
