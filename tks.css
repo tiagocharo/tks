@@ -7,18 +7,32 @@
 a {
     text-decoration: none;
 }
+/* hide */
+.hide {
+    display: none;
+}
+.container-contacts .list {
+    display: none;
+}
+/* hide */
 .container {
     position: relative;
     overflow-x: hidden;
 }
 .container-menu {
-    background-image: url('assets/Bg-Tks-Alt.png');
+    background-image: url('assets/Bg-Tks.jpg');
+    background-attachment: fixed;
     background-size: cover;
     height: 900px;
     padding: 25px;
 }
+.container-menu .symbols {
+    position: absolute!important;
+}
 .menu {
     display: flex;
+    position: relative;
+    z-index: 5;
 }
 .menu .logo {
     height: 40px;
@@ -50,6 +64,7 @@ a {
     margin-top: 40px;
     position: relative;
     z-index: 10;
+    max-width: 50%;
 }
 .presentation h1 .big-logo {
     height: 80px;
@@ -63,7 +78,7 @@ a {
     margin-top: 40px;
 }
 .presentation h3 {
-    font-family: "Avenir-Medium", sans-serif;
+    font-family: "Avenir-Light", sans-serif;
     font-size: 24px;
     color: #F6F9FC;
     letter-spacing: 0;
@@ -115,6 +130,8 @@ a {
 .container-services {
     background: #131626;
     padding: 80px 25px 25px;
+    position: relative;
+    overflow: hidden;
 }
 .container-services .main-text {
     font-family: "Avenir-Heavy", sans-serif;
@@ -123,19 +140,32 @@ a {
     letter-spacing: 0;
     max-width: 805px;
     margin-bottom: 70px;
+    position: relative;
+    z-index: 5
 }
 .container-services .services {
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+    z-index: 5;
 }
 .container-services .services div {
     margin-bottom: 50px;
 }
 .container-services .services p {
-    font-family: "Avenir-Medium", sans-serif;
+    font-family: "Avenir-Light", sans-serif;
     font-size: 17px;
     color: #C1CED9;
     letter-spacing: 0;
+}
+.container-services .symbol{
+    position: absolute;
+    top: 13%;
+    right: -70%;
+}
+.container-services .symbol img {
+    height: 105em;
+    width: 129em;
 }
 
 .container-products {
@@ -158,7 +188,7 @@ a {
     margin-bottom: 50px;
 }
 .container-products .products p {
-    font-family: "Avenir-Medium", sans-serif;
+    font-family: "Avenir-Light", sans-serif;
     font-size: 24px;
     color: #9499AB;
     letter-spacing: 0;
@@ -215,13 +245,23 @@ a {
     text-align: center;
 }
 .container-contacts {
-    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+}
+.container-contacts .container-center .contacts {
+    padding: 0;
 }
 .container-contacts .contacts {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: left;
+    position: absolute;
+    padding: 60px 0;
+    top: 0;
 }
 .container-contacts .contacts .box-contacts {
     background: #f6f7f8;
@@ -301,12 +341,15 @@ a {
 .container-contacts .contacts .adress p:first-child {
     margin-bottom: 40px;
 }
-
+.container-footer {
+    padding: 0 25px;
+}
 .container-footer .footer {
     display: flex;
     align-items: center;
     justify-content: left;
     align-items: baseline;
+    padding: 90px 0 100px 0;
 }
 
 .container-footer .footer .c {
@@ -375,6 +418,17 @@ a {
     margin-bottom: 16px;
 }
 
+.container-center {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.container-center .contacts {
+    width: 100%;
+}
+iframe {
+    height: 700px;
+}
+
 
 /*colluns*/
 .collum-3-small {
@@ -398,7 +452,6 @@ a {
 .collum-4-big:last-child {
     margin-right: 0;
 }
-
 
 .bg-npx {
     background: url('assets/Bg-Npx.jpg') center top;
@@ -773,7 +826,11 @@ a {
     max-height: 100px;
     max-width: 150px;
 }
-@media all and (max-width: 768px) {
+
+/* MOBILE */
+
+@media all and (max-width: 800px) {
+
     .menu .logo img {
         height: 52px;
     }
@@ -791,17 +848,38 @@ a {
     .container-contacts .contacts .adress {
         display: none;
     }
+    iframe {
+        display: none;
+    }
+    /* display block */
+    .hide {
+        display: block;
+    }
+    .container-contacts .list {
+        display: block;
+    }
+    /* display block */
 
     .container-menu {
         height: auto;
         padding: 40px 25px 100px 25px;
     }
+    .presentation {
+        max-width: initial;
+    }
     .presentation h2, .presentation h3 {
         width: 88%;
     }
+    .presentation h3 {
+        font-size: 20px;
+    }
+    .presentation h2 {
+    font-size: 31px;
+    line-height: 40px;
+    }
     .presentation .contact {
         width: 100%;
-        height: 88px;
+        height: 40px;
         display: flex;
         align-items: center;
     }
@@ -824,6 +902,25 @@ a {
         height: 956px;
         z-index: 1;
     }
+    .container-services .main-text {
+        font-size: 20px;
+        position: relative;
+        z-index: 5;
+    }
+
+    .container-services .symbol{
+        position: absolute;
+        top: 17%;
+        right: -808px;
+    }
+    .container-services .symbol img {
+        height: 86em;
+        width: 83em;
+    }
+    .container-services .services {
+        position: relative;
+        z-index: 5;
+    }
 
     .container-companies .companies {
         justify-content: space-around;
@@ -842,9 +939,37 @@ a {
         max-width: 100%;
         max-height: 100px;
     }
+    .container-contacts {
+        padding: 0;
+    }
+    
+    .container-contacts {
+        overflow: hidden;
+        background: #E6EBEF;
+    }
+    .container-contacts .contacts {
+        padding: 60px 25px;
+        position: relative;
+        display: block;
+    }
+    .container-contacts .contacts .text-default {
+        font-family: Avenir-Light;
+        color: #9499AB;
+        letter-spacing: 0;
+        margin-bottom: 50px;
+    }
     .container-contacts .contacts .box-contacts {
         margin-left: 0;
         padding: 20px 0;
+        margin-bottom: 40px;
+    }
+    .container-contacts .contacts ul {
+        list-style-position: inside;
+    }
+    .container-contacts .contacts ul li {
+        color: #E6EBEF;
+        margin-bottom: 40px;
+        font-family: Avenir-Light;
     }
     .container-footer .footer .logo {
         margin-left: 0;
@@ -855,14 +980,14 @@ a {
     .container-contacts .contacts .box-contacts .middle {
         display: block;
     }
-    .container-contacts {
-        padding: 60px 25px;
-    }
     .container-contacts:before {
         content: '';
         position: absolute;
-        transform: rotate(30deg);
-        background-image: linear-gradient(-138deg, #D93845 0%, #5F0B4B 100%);
+        transform: rotate(60deg);
+        background-image: linear-gradient(88deg, #D93845 0%, #5F0B4B 100%);
+        height: 1700px;
+        width: 1209px;
+        top: 8%;
     }
     .container-contacts .contacts .box-contacts input {
         width: 100%;
@@ -904,7 +1029,6 @@ a {
     }
     .container-footer .footer {
         display: block;
-        padding: 80px 25px;
     }
     .container-footer .footer .collum .collum-item:first-child {
         margin-bottom: 40px;
@@ -920,5 +1044,44 @@ a {
     .collum-3-small, .collum-3-big {
         width: 100%;
         margin-right: 0;
+    }
+
+    /* default */
+    .text-default {
+        font-size: 18px!important;
+    }
+}
+@media all and (min-width: 800px) {
+    .container-contacts .contacts {
+        height: 700px;
+        width: 100%;
+        justify-content: center;
+        box-sizing: border-box;
+        right: 0;
+        left: 0;
+    }
+    .container-center .contacts {
+        width: 100%;
+    }
+    .container-services .symbol {
+        top: 21%;
+        right: -35%;
+    }
+    .container-contacts .contacts .box-contacts {
+        margin-left: 0;
+    }
+    .container-footer .footer {
+        justify-content: center;
+    }
+    .container-footer .footer .logo {
+        margin-left: 0;
+    }
+
+}
+
+@media all and (min-width: 1200px) {
+
+    .container-contacts .contacts .box-contacts {
+        margin-left: 0;
     }
 }
